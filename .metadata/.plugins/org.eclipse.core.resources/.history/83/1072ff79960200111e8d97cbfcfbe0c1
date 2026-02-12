@@ -1,0 +1,41 @@
+
+//If two numbers are given print the largest number
+//class ConditionalOperator{
+//	public static void main(String[] args)
+//	{
+//		int num1=10;
+//		int num2=20;
+//		int res = (num1>num2) ? num1 : num2;
+//		System.out.println(res+" is the largest number");
+//	}
+//}
+//
+
+/* If three numbers are given print the largest number
+
+class ConditionalOperator{
+	public static void main(String[] args)
+	{
+		int num1=10;
+		int num2=20;
+		int num3=30;
+		int res1 = (num1>num2) ? num1 : num2;
+		int res2 = (res1>num3) ? res1 : num3;
+		System.out.println(res2+" is the largest number");
+	}
+}
+*/
+
+//If two numbers are given print the largest number with only one nested conditional operatorpackage Operators;
+
+public class LargestNumberConditional {
+	public static void main(String[] args)
+	{
+		int num1=10;
+		int num2=20;
+		int num3=30;
+		int res = (num1>num2) ? (num1>num3?num1:num3): (num2>num3?num2:num3);
+		System.out.println(res+" is the largest number");
+	}
+
+}
