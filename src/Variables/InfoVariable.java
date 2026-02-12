@@ -1,0 +1,32 @@
+package Variables;
+
+public class InfoVariable {
+
+	    public static void main(String[] args) {
+		String name="Aksh";
+		char sec='A';
+		int age=18;
+		String college="panimalar";
+		float XII=90.0f;
+		float X=96.0f;
+
+		System.out.print("Name: ");
+		System.out.println(name); //without concatenation (+)
+		System.out.print("Section: ");
+		System.out.println(sec);
+		System.out.print("Age: ");
+		System.out.println(age);
+		System.out.print("College: ");
+		System.out.println(college);
+		System.out.print("12th: ");
+		System.out.print(XII);
+		System.out.println("%");//goes to next line after printing data
+		System.out.print("10th: ");
+		System.out.print(X);//goes to next 
+		System.out.println("%");
+
+		}	
+	
+
+
+}
