@@ -19,3 +19,35 @@ public class ReverseNumber {
 	}
 
 }
+
+
+
+/*public class Solution{ 
+public static String emirp(int n){
+	int reverse=0;
+	int tempNum=n;
+	while (tempNum != 0) {
+        int digit = tempNum % 10;      
+        reverse = reverse * 10 + digit; 
+        tempNum = tempNum / 10; 
+    }
+	boolean res2=isprime(reverse);
+	if(n!=reverse && isprime(n) && isprime(reverse)){
+		return "Emirp";
+	}
+	else{
+		return "Not Emirp";
+	}
+}
+public static boolean isprime(int n) {
+	if(n==1) {
+		return false;
+	}
+	for(int i=2;i<n;i++) {
+		if(n%i==0) {
+			return false;
+		}
+	}
+	return true;
+}
+}*/
