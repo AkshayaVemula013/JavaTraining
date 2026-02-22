@@ -9,6 +9,20 @@ public class AutomorphicArmstrong {
 		
 		return LD1==LD2;
 	}
+	
+	/*{
+        int sq = N * N;
+        int temp = N;
+        while(temp > 0)
+        {
+            if(temp % 10 != sq % 10) return false;
+            temp /= 10;
+            sq /= 10;
+        }
+        return true;
+    }*/
+	
+	
 	public static boolean isArmstrong(int num)
 	{
 	    int temp = num;
